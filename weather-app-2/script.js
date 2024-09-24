@@ -29,7 +29,7 @@ setInterval(function(){
 
 
 function getinfo() {
-    const city = document.getElementById('city-input').value;
+    const city = document.getElementById('city-input').value.trim();
     const apiurl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     fetch(apiurl)
