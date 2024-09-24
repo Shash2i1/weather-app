@@ -65,8 +65,9 @@ function getinfo() {
                     <p>${data.weather[0].description}</p>
 
                 `
-
-                getimage(tempRead)
+                //console.log(`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`)
+                image_diagram.innerHTML = `<img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="">`
+                //getimage(tempRead)
             
         })
         .catch(error => {
@@ -78,7 +79,7 @@ function getinfo() {
 
 }
 
-function getimage(temp){
+/*function getimage(temp){
 
     if( temp < 0)
         {
@@ -113,4 +114,4 @@ function getimage(temp){
         {
             image_diagram.innerHTML = ` <h1>🔥</h1>`
         }
-}
+}*/
