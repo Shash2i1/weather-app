@@ -26,7 +26,7 @@ button.addEventListener('click', function(){
                 alert(`Entered city (${city}) is not found`)
                 return
             }
-
+            console.log(data)
             const temp=data.main.temp
             const cityname=data.name
             const description=data.weather[0]?.description
