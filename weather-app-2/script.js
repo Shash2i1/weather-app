@@ -40,6 +40,7 @@ function getinfo() {
                 alert(`Entered City ${city} is not found`)
                 return
             }
+            console.log(data)
             const tempRead = data.main.temp
             temp_info.innerHTML =
                 `

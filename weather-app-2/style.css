@@ -180,3 +180,55 @@ button{
         text-align: center;
     }
 }
+
+@media screen and (min-width : 426px) and (max-width : 769px){
+
+    .container{
+        width: 500px;
+        height: 400px;
+    }
+    .day-section{
+        
+        font-size: 1em;
+        padding:20px 10px 10px 10px;
+        
+    }
+  
+    .time-section{
+        
+        font-size: 0.9em;
+    }
+    .image-diagram{
+        
+        font-size: 3em;
+    }
+    .temp-section p{
+        margin-top: 10px;
+    }
+    .right-section{
+       
+        padding: 20px;
+    }
+    .input-section{
+        margin-top: 10px;
+    }
+    input{
+        width: 70%;
+        padding: 10px 10px 10px 5px;
+        font-size: 0.8em;
+    }
+    button{
+   
+        width: 30%;
+        font-size: 0.8em;
+    }
+
+    .info{
+        font-size: 0.7em;
+    }
+    .footer{
+        color: #4a5d66;
+        font-size: 0.7em;
+        text-align: center;
+    }
+}
